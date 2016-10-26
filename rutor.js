@@ -26,7 +26,7 @@ magicplayer.addHandler("rutor", function(features) {
             txtbutton = "Слушать";
         }
         
-        var $newFormat = $('#download a[href^="http://new-rutor.info/parse/d.rutor.info/download/"]');
+        var $newFormat = $('#download a[href^="http://rutor.info/parse/d.rutor.info/download/"]');
         var $oldFormat = $('#download a[href^="http://d.rutor.info/download"]');
         var $links, newFormat;
         
